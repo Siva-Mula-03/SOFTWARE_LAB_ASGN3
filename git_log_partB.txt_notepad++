@@ -1,0 +1,88 @@
+commit e419bf428751c412e4d787a94efebf80575aedf2
+Author: Mula Siva Prasad Babu <sivamula.code03@gmail.com>
+Date:   Thu Mar 9 23:57:50 2023 +0530
+
+    Deleting file2.txt
+
+diff --git a/file1.txt b/file1.txt
+index 6a88128..54622c2 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1,2 +1,3 @@
+ MULA SIVA PRASAD BABU  Computer Science & Engineering
+-Mc Donalds   Bahubhali
+\ No newline at end of file
++Mc Donalds   Bahubhali
++Yellow
+\ No newline at end of file
+diff --git a/file2.txt b/file2.txt
+deleted file mode 100644
+index d4100dc..0000000
+--- a/file2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-Expected Graduation year:2025  Job title:Software Development Engineer
+\ No newline at end of file
+
+commit 1040e3672bce790ec3e9aff7ee072a86bbf6825d
+Author: Mula Siva Prasad Babu <sivamula.code03@gmail.com>
+Date:   Thu Mar 9 23:44:51 2023 +0530
+
+    file2.txt has been staged and it is included with Expected Year and Job title
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..d4100dc
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++Expected Graduation year:2025  Job title:Software Development Engineer
+\ No newline at end of file
+
+commit 161d4306fbc8d31cb158e876f7204768f68746d3
+Author: Mula Siva Prasad Babu <sivamula.code03@gmail.com>
+Date:   Thu Mar 9 23:27:04 2023 +0530
+
+    Added favorite restaurant and movie
+
+diff --git a/file1.txt b/file1.txt
+index 090c22c..6a88128 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1,2 @@
+-MULA SIVA PRASAD BABU  Computer Science & Engineering
+\ No newline at end of file
++MULA SIVA PRASAD BABU  Computer Science & Engineering
++Mc Donalds   Bahubhali
+\ No newline at end of file
+
+commit 74a0f356236eed2af00c66e7b62f225d5f1d2824
+Author: Mula Siva Prasad Babu <sivamula.code03@gmail.com>
+Date:   Thu Mar 9 23:18:49 2023 +0530
+
+    Now has my major
+
+diff --git a/file1.txt b/file1.txt
+index ce4c8c3..090c22c 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -1 +1 @@
+-MULA SIVA PRASAD BABU  27571
+\ No newline at end of file
++MULA SIVA PRASAD BABU  Computer Science & Engineering
+\ No newline at end of file
+
+commit 13bb68efdde87320d3bd948a8a607a3f6128327f
+Author: Mula Siva Prasad Babu <sivamula.code03@gmail.com>
+Date:   Thu Mar 9 23:05:53 2023 +0530
+
+    Commiting a new file with my name
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..ce4c8c3
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1 @@
++MULA SIVA PRASAD BABU  27571
+\ No newline at end of file
